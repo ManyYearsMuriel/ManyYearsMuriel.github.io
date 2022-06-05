@@ -14,6 +14,7 @@ let r;
 function setup() {
   createCanvas(windowWidth,windowHeight);
   console.log('Tanti auguri');
+  pixelDensity(1);
   colorMode(HSB);
   gravity = createVector(0, 0.15);
   stroke(255);
