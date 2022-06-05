@@ -30,7 +30,7 @@ function draw() {
   colorMode(RGB);
   background(0, 0, 0, 25);
   textSize(textS);
-  fill(0, 102, 153);
+  fill(0, 102, 153);/*
   text('χρόνια πολλά', width/2-3*textS, height/2);
   text('Muriel', x, y);
   x += xspeed;
@@ -40,7 +40,7 @@ function draw() {
   }
   if (y > height - r || y < r) {
     yspeed = -yspeed;
-  }
+  }*/
 
   if (random(1) < 0.04) {
     fireworks.push(new Firework());
