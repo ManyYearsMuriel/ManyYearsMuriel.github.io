@@ -31,7 +31,7 @@ function draw() {
   textSize(textS);
   fill(0, 102, 153);
   text('χρόνια πολλά', width/2-3*textS, height/2);
-  text('Mouriel', x, y);
+  text('Muriel', x, y);
   x += xspeed;
   y += yspeed;
   if (x > width - r || x < r) {
