@@ -10,16 +10,10 @@ let y;
 let xspeed = 5;
 let yspeed = 2;
 let r;
-let button;
+
 function setup() {
   createCanvas(windowWidth,windowHeight);
   console.log('Tanti auguri');
-  button = createButton('Why would you click me?');
-  button.mouseClicked(btkclick);
-  let bts=width/50;
-  button.position(10,10);
-  button.style("font-family", "Bodoni");
-  button.style("font-size", bts+"px");
   colorMode(HSB);
   gravity = createVector(0, 0.15);
   stroke(255);
@@ -59,8 +53,4 @@ function draw() {
       fireworks.splice(i, 1);
     }
   }
-}
-
-function btkclick() {
-  location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }
