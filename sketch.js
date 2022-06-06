@@ -3,13 +3,13 @@
 // https://youtu.be/CKeyIbT3vXI
 
 const fireworks = [];
-let gravity;
+let gravity;/*
 let textS;
 let x;
 let y;
 let xspeed = 5;
 let yspeed = 2;
-let r;
+let r;*/
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
@@ -20,16 +20,16 @@ function setup() {
   stroke(255);
   strokeWeight(4);
   background(0);
-  textS=width/15;
+  /*textS=width/15;
   x=width/2-3*textS+textS;
   y=height/2+textS;
   r=1;
+  textSize(textS);*/
 }
 
 function draw() {
   colorMode(RGB);
   background(0, 0, 0, 25);
-  textSize(textS);
   fill(0, 102, 153);/*
   text('χρόνια πολλά', width/2-3*textS, height/2);
   text('Muriel', x, y);
