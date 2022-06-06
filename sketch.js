@@ -16,7 +16,11 @@ function setup() {
   console.log('Tanti auguri');
   pixelDensity(1);
   colorMode(HSB);
-  gravity = createVector(0, 0.15);
+  if(width>height){
+    gravity = createVector(0, 0.15);
+  }else{
+    gravity = createVector(0, 0.075);
+  }
   stroke(255);
   strokeWeight(4);
   background(0);
