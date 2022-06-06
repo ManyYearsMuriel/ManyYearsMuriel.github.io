@@ -3,13 +3,13 @@
 // https://youtu.be/CKeyIbT3vXI
 
 const fireworks = [];
-let gravity;/*
+let gravity;
 let textS;
 let x;
 let y;
 let xspeed = 5;
 let yspeed = 2;
-let r=1;*/
+let r=1;
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
