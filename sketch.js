@@ -35,7 +35,7 @@ function draw() {
   background(0, 0, 0, 25);
   fill(0, 102, 153);
   text('χρόνια πολλά', width/2-3*textS, height/2);
-  text('Muriel', x, y);
+  text('🕷️', x, y);
   x += xspeed;
   y += yspeed;
   if (x > width - r || x < r) {
